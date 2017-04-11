@@ -1,3 +1,4 @@
+/*clases reutilizasbles */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -65,7 +66,7 @@ a:hover {
   color: #E95853;
 }
 
-/*nuevas clases*/
+/*header*/
 .link{
   font-weight: 700;
   padding: 21px;
@@ -93,6 +94,7 @@ header {
   overflow: auto;
 }
 
+/*Principal*/
 #home {
   background-image: url(../img/bg-home.jpg);
   background-position: center;
@@ -124,6 +126,7 @@ header {
   font-size: 14px;
 }
 
+/*servicios*/
 #services{
   background-color: #F17C72;
   text-align: center;
@@ -142,6 +145,7 @@ header {
   letter-spacing: 2px;
 }
 
+/*proyectos*/
 #work {
   background-color: #fff;
   text-align: center;
@@ -149,19 +153,17 @@ header {
   padding: 100px 7px;
 }
 
-
-
 #box-work {
   padding:30px;
-  /*width: 300px;*/
-  margin: 10px;
+  margin: 20px 10px;
 }
 
 .product {
   display:inline-block;
+  margin: 25px 0px;
+  padding: 0;
   width: 350px;
   height: 350px;
-  margin: 30px;
   /*border: 5px solid;*/;
 }
 
@@ -169,6 +171,7 @@ header {
   width: 300px;
   height: 300px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .product span{
@@ -176,7 +179,7 @@ header {
   color: rgb(68, 60, 84);
 }
 
-/*estilo al href del footer*/
+/*estilo al footer*/
 #perfil-gh{
   text-decoration: none;
   color: white;
