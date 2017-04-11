@@ -149,6 +149,33 @@ header {
   padding: 100px 7px;
 }
 
+
+
+#box-work {
+  padding:30px;
+  /*width: 300px;*/
+  margin: 10px;
+}
+
+.product {
+  display:inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 30px;
+  /*border: 5px solid;*/;
+}
+
+.product img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.product span{
+  font-size:21px;
+  color: rgb(68, 60, 84);
+}
+
 /*estilo al href del footer*/
 #perfil-gh{
   text-decoration: none;
